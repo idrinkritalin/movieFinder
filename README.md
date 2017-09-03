@@ -14,6 +14,7 @@ App that uses OMDb (Open Movie Database) API's to query movies and show some res
 **TO-DOs:**
 
 * Style the project (as it is right now, is *totally not styled*)
+* Deploy into the web, to be usable (Heroku or similar)
 * Receive feedbacks or suggests - thanks for this 🤓
 
 **How to use:**
