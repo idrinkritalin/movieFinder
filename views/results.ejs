@@ -1,0 +1,16 @@
+<% include partials/headerResults %>
+
+<h1>MOVIE RESULTS:</h1>
+<% if(data.Response != "False" ){  %>
+    <ul>
+        <% data.Search.forEach(function(movie){  %>
+             <li><%= movie.Title %> - <%= movie.Year %> - <img src="<%= movie.Poster %>"></li>
+        <%  });  %>
+    </ul>
+<% } else { %>
+    <p>No movies found 😞</p>
+<% } %>
+
+<a href="/">Search again!</a>
+
+<% include partials/footerResults %>

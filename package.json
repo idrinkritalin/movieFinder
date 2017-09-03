@@ -1,0 +1,21 @@
+{
+  "name": "movieapi",
+  "version": "1.0.0",
+  "description": "App that uses OMDb (Open Movie Database) API's to query movies and show some results.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idrinkritalin/movieFinder"
+  },
+  "author": "idrinkritalin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "request": "^2.81.0"
+  }
+}
