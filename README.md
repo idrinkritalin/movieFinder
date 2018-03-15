@@ -14,12 +14,12 @@ App that uses OMDb (Open Movie Database) API's to query movies and show some res
 **TO-DOs:**
 
 * Style the project (as it is right now, is *totally not styled*)
-* Deploy into the web, to be usable (Heroku or similar)
+✔️ Deploy into the web, to be usable (Heroku or similar)
 * Receive feedbacks or suggests - thanks for this 🤓
 
 **How to use:**
 
-To install the required dependencies, from the terminal: 
+To install the required dependencies, from the terminal:
 ```
 npm install
 ```
@@ -29,5 +29,9 @@ Start the server:
 node app.js
 ```
 you will be able to listen the server on http://localhost:8080
+
+**This repo is also hosted on Heroku**
+
+https://git.heroku.com/nodejs-movie-finder.git
 
 **Enjoy!**
