@@ -32,6 +32,6 @@ you will be able to listen the server on http://localhost:8080
 
 **This repo is also hosted on Heroku**
 
-https://git.heroku.com/nodejs-movie-finder.git
+https://nodejs-movie-finder.herokuapp.com
 
 **Enjoy!**
