@@ -22,7 +22,7 @@ app.get("/results", function(req, res){
         if(!error && response.statusCode == 200){
             var data = JSON.parse(body);
             res.render("results", {data : data});
-        }  
+        }
     });
 });
 
@@ -31,9 +31,6 @@ app.get("*", function(req, res){
 });
 
 // LISTENING
-app.listen(8080, function(){
-   if(process.env.IP === "0.0.0.0"){
-        process.env.IP = "localhost"
-    }
+app.listen(process.env.PORT, process.env.IP, function(){
     console.log("Server has started on port 8080, my Master!")
 });
